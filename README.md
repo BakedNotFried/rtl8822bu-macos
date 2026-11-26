@@ -4,7 +4,7 @@ Connect a Realtek RTL8822BU USB Wi-Fi dongle to the Stretch router from an Apple
 
 The companion boots a small ARM64 Linux guest from files inside the checkout. The guest receives the USB dongle and runs the Linux RTL8822BU driver. A private connection carries IPv4 traffic back to macOS. The dongle is the guest’s only network connection. All guest files are local to the checkout or to its temporary session.
 
-**Hardware test:** The RTL8822BU dongle joined the physical Stretch router over 2.4 GHz WPA2 on an M1 Max MacBook Pro running macOS 27.2.1. Other Apple silicon models await testing.
+**Hardware test:** On an M1 Max MacBook Pro running macOS 27.2.1, the dongle joined the Stretch router over 2.4 GHz WPA2. macOS received a DHCP lease and the router answered three out of three pings through the dongle. Built-in Wi-Fi kept the default route. Connecting to a robot application and testing other Apple silicon models are still pending.
 
 ## What you need
 
