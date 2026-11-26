@@ -1,0 +1,202 @@
+{
+  "capstone": {
+    "license": "BSD-3-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "6b31fe379681e2c0778e30b3516cdfc2cfdff6424f666463643f1507039daf0b",
+    "url": "https://ghcr.io/v2/homebrew/core/capstone/blobs/sha256:6b31fe379681e2c0778e30b3516cdfc2cfdff6424f666463643f1507039daf0b",
+    "version": "5.0.9"
+  },
+  "dtc": {
+    "license": "GPL-2.0-or-later OR BSD-2-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "92ee4960b1643f3ba722d3d0cd9eb31af546215c7eaf858e76e2c69dd2c7afe8",
+    "url": "https://ghcr.io/v2/homebrew/core/dtc/blobs/sha256:92ee4960b1643f3ba722d3d0cd9eb31af546215c7eaf858e76e2c69dd2c7afe8",
+    "version": "1.8.1"
+  },
+  "gettext": {
+    "license": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "4db034aa2ae4b1f18d86906707ece14c895198090ad028d2fb1ae4fbeb3ca6fd",
+    "url": "https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:4db034aa2ae4b1f18d86906707ece14c895198090ad028d2fb1ae4fbeb3ca6fd",
+    "version": "1.0"
+  },
+  "glib": {
+    "license": "LGPL-2.1-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "ff7ee35893db3adf21e2b7cf7e98d62e105b0fea948e8338b5f02ffb3d076930",
+    "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:ff7ee35893db3adf21e2b7cf7e98d62e105b0fea948e8338b5f02ffb3d076930",
+    "version": "2.90.2"
+  },
+  "gmp": {
+    "license": "LGPL-3.0-or-later OR GPL-2.0-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "5116a8201d8e044aef7d486da7e57f1e4dd2d8554ea6b540b44e45c0804f8f6f",
+    "url": "https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:5116a8201d8e044aef7d486da7e57f1e4dd2d8554ea6b540b44e45c0804f8f6f",
+    "version": "6.3.0"
+  },
+  "gnutls": {
+    "license": "LGPL-2.1-or-later AND GPL-3.0-only",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "c118d53b47033725a76201d0f0c65bbbffa7176a5f54021c067c84381b194b50",
+    "url": "https://ghcr.io/v2/homebrew/core/gnutls/blobs/sha256:c118d53b47033725a76201d0f0c65bbbffa7176a5f54021c067c84381b194b50",
+    "version": "3.8.14"
+  },
+  "jpeg-turbo": {
+    "license": "IJG AND Zlib AND BSD-3-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "3f245f1914445713bba97fbee6b4f7cb379b4e9c91237d12e76ee52c1975ce0e",
+    "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:3f245f1914445713bba97fbee6b4f7cb379b4e9c91237d12e76ee52c1975ce0e",
+    "version": "3.2.1"
+  },
+  "libidn2": {
+    "license": "(GPL-2.0-or-later OR LGPL-3.0-or-later) AND (Unicode-TOU AND Unicode-DFS-2016) AND GPL-3.0-or-later AND LGPL-2.1-or-later AND FSFAP-no-warranty-disclaimer",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "bacc89595e4e8d2a4e14eb71730ae96a1ca68830068a741c59fc363a355ef1bc",
+    "url": "https://ghcr.io/v2/homebrew/core/libidn2/blobs/sha256:bacc89595e4e8d2a4e14eb71730ae96a1ca68830068a741c59fc363a355ef1bc",
+    "version": "2.3.8"
+  },
+  "libpng": {
+    "license": "libpng-2.0",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "7e04225ac0bc048d2b12c603f678e5fa36459909812f2f1306dbd97af337cdec",
+    "url": "https://ghcr.io/v2/homebrew/core/libpng/blobs/sha256:7e04225ac0bc048d2b12c603f678e5fa36459909812f2f1306dbd97af337cdec",
+    "version": "1.6.59"
+  },
+  "libslirp": {
+    "license": "BSD-3-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "5081aebdcf1a0c08f2b7bc92c2279c2a7b9d93650c2ba54d421aac888c67e935",
+    "url": "https://ghcr.io/v2/homebrew/core/libslirp/blobs/sha256:5081aebdcf1a0c08f2b7bc92c2279c2a7b9d93650c2ba54d421aac888c67e935",
+    "version": "4.9.7"
+  },
+  "libssh": {
+    "license": "LGPL-2.1-or-later",
+    "platform": "golden_gate",
+    "revision": 1,
+    "sha256": "48110039ef444f383b5fab938dffbca01203784eafcf2a05135477cffef15751",
+    "url": "https://ghcr.io/v2/homebrew/core/libssh/blobs/sha256:48110039ef444f383b5fab938dffbca01203784eafcf2a05135477cffef15751",
+    "version": "0.12.2"
+  },
+  "libtasn1": {
+    "license": "LGPL-2.1-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "68d1748171848565af7a083ca92b834ab1fe4ac7832140b1cd22fd1fcb072fd7",
+    "url": "https://ghcr.io/v2/homebrew/core/libtasn1/blobs/sha256:68d1748171848565af7a083ca92b834ab1fe4ac7832140b1cd22fd1fcb072fd7",
+    "version": "4.21.0"
+  },
+  "libunistring": {
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "fec6be46cabaefd1dc5d5ecd029c50aeaef6c93d9c7de4425968047811575e81",
+    "url": "https://ghcr.io/v2/homebrew/core/libunistring/blobs/sha256:fec6be46cabaefd1dc5d5ecd029c50aeaef6c93d9c7de4425968047811575e81",
+    "version": "1.5"
+  },
+  "libusb": {
+    "license": "LGPL-2.1-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "b462926c2314b5bb7d1a6721f9a3cf7336a4166ba67024b4bbd0226de457132a",
+    "url": "https://ghcr.io/v2/homebrew/core/libusb/blobs/sha256:b462926c2314b5bb7d1a6721f9a3cf7336a4166ba67024b4bbd0226de457132a",
+    "version": "1.0.30"
+  },
+  "lzo": {
+    "license": "GPL-2.0-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "928ed0070e25fe8082e24daa3f967657be0c1c5c72c14a3ac4cd498874eeec11",
+    "url": "https://ghcr.io/v2/homebrew/core/lzo/blobs/sha256:928ed0070e25fe8082e24daa3f967657be0c1c5c72c14a3ac4cd498874eeec11",
+    "version": "2.10"
+  },
+  "ncurses": {
+    "license": "X11-distribute-modifications-variant",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "36a1f053f1be8ce8dce8a92b68395fb1483b077d313077e9c8f4b20b6f712602",
+    "url": "https://ghcr.io/v2/homebrew/core/ncurses/blobs/sha256:36a1f053f1be8ce8dce8a92b68395fb1483b077d313077e9c8f4b20b6f712602",
+    "version": "6.6"
+  },
+  "nettle": {
+    "license": "GPL-2.0-or-later OR LGPL-3.0-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "42ff85a054b4a265542175dd31f4a515e0a3e7d8113cfddacc5472555a036bc8",
+    "url": "https://ghcr.io/v2/homebrew/core/nettle/blobs/sha256:42ff85a054b4a265542175dd31f4a515e0a3e7d8113cfddacc5472555a036bc8",
+    "version": "4.0"
+  },
+  "openssl@4": {
+    "license": "Apache-2.0",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "d239639f77a275caa217707e126790b3f5f5c86e5bc6e2a996e5df7fdaed44a6",
+    "url": "https://ghcr.io/v2/homebrew/core/openssl/4/blobs/sha256:d239639f77a275caa217707e126790b3f5f5c86e5bc6e2a996e5df7fdaed44a6",
+    "version": "4.1.0"
+  },
+  "p11-kit": {
+    "license": "BSD-3-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "a0751e0579ea06c14793f5b95093c34921df22e74cfe9101d0d396e44b7d378c",
+    "url": "https://ghcr.io/v2/homebrew/core/p11-kit/blobs/sha256:a0751e0579ea06c14793f5b95093c34921df22e74cfe9101d0d396e44b7d378c",
+    "version": "0.26.6"
+  },
+  "pcre2": {
+    "license": "BSD-3-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "5cac44323243138490ca74a2499fd347fa836df6b5fffa789944be12110e91ff",
+    "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:5cac44323243138490ca74a2499fd347fa836df6b5fffa789944be12110e91ff",
+    "version": "10.49"
+  },
+  "pixman": {
+    "license": "MIT",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "918ff532bf70bc121376f4b51420f44fc1abd0b9c519d7f8040f6ad9d304bc02",
+    "url": "https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:918ff532bf70bc121376f4b51420f44fc1abd0b9c519d7f8040f6ad9d304bc02",
+    "version": "0.46.4"
+  },
+  "qemu": {
+    "license": "GPL-2.0-only",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "633b1cb3f1fac3e73e0dc7b686284c634a8344c1235f04e0d84d9c5727e221a0",
+    "url": "https://ghcr.io/v2/homebrew/core/qemu/blobs/sha256:633b1cb3f1fac3e73e0dc7b686284c634a8344c1235f04e0d84d9c5727e221a0",
+    "version": "11.1.3"
+  },
+  "snappy": {
+    "license": "BSD-3-Clause",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "7f20ac629eaf9a34a0e4d0e1fe60a933d42ececf3d956988fa8b24916e467c85",
+    "url": "https://ghcr.io/v2/homebrew/core/snappy/blobs/sha256:7f20ac629eaf9a34a0e4d0e1fe60a933d42ececf3d956988fa8b24916e467c85",
+    "version": "1.3.1"
+  },
+  "vde": {
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "972ce0f14fb0fe92932f45b887019b228ac4529f06d0a95eeb88ece1359d76ba",
+    "url": "https://ghcr.io/v2/homebrew/core/vde/blobs/sha256:972ce0f14fb0fe92932f45b887019b228ac4529f06d0a95eeb88ece1359d76ba",
+    "version": "2.3.3"
+  },
+  "zstd": {
+    "license": "(BSD-3-Clause OR GPL-2.0-only) AND BSD-2-Clause AND MIT",
+    "platform": "golden_gate",
+    "revision": 0,
+    "sha256": "78df508100eba34ed911f4e3ced121d5d001f1a340ae800f38f2325df56bfe2a",
+    "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:78df508100eba34ed911f4e3ced121d5d001f1a340ae800f38f2325df56bfe2a",
+    "version": "1.6.0"
+  }
+}

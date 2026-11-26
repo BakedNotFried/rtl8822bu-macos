@@ -1,0 +1,290 @@
+{
+  "busybox": {
+    "aports_commit": "1e823a60eb85606954b3a5af5f8e5bbd1ea680cf",
+    "control": "Q1ikqlwHVQiBbHyd5Y5R6TMlf4pN8=",
+    "license": "GPL-2.0-only",
+    "origin": "busybox",
+    "sha256": "d3c919f1f142e41ba83c7dbcc392388f23f840dda6867719e660ebb9cc681254",
+    "size": 521860,
+    "version": "1.37.0-r30"
+  },
+  "dbus-libs": {
+    "aports_commit": "6bd45b53fb316dc01bda59f5feaf1e127eb64f22",
+    "control": "Q1m203YZUW1asWY7AwgyjaXqoa6/E=",
+    "license": "AFL-2.1 OR GPL-2.0-or-later",
+    "origin": "dbus",
+    "sha256": "7d8f2b7bb25430d440d36ade181cd77d11e0ef4172a5a57e767985ca33670fb3",
+    "size": 130818,
+    "version": "1.16.2-r1"
+  },
+  "gdbm": {
+    "aports_commit": "1ea03990396db618edfcc8a9a0bc6b72662bac8f",
+    "control": "Q1SqqYjrtgJdS+d5r6zaIWinkH/ho=",
+    "license": "GPL-3.0-or-later",
+    "origin": "gdbm",
+    "sha256": "d8981e56b4c16722424ef642313bb710e42cc7181f204e14856a1f21887adf17",
+    "size": 33829,
+    "version": "1.26-r0"
+  },
+  "iproute2-minimal": {
+    "aports_commit": "e2795cf60b102263faabe89313c70776a13101e7",
+    "control": "Q1TMqWBSg3jXusQMYtEzu3ojLqg/U=",
+    "license": "GPL-2.0-or-later",
+    "origin": "iproute2",
+    "sha256": "cb59fda34bb6683b09cf510985d0d00aebfb78e00c5fd872fa4cd7095175a4a9",
+    "size": 278201,
+    "version": "6.17.0-r0"
+  },
+  "iw": {
+    "aports_commit": "a035abb86237303106f41c29c843288e1a2466d4",
+    "control": "Q1tM6D1FCqC0mvRUNM1fomz+eqMCw=",
+    "license": "ISC",
+    "origin": "iw",
+    "sha256": "aa98f90f196d1dab15a749215bff4aed48b75c61bc64ff23495e8052979c32da",
+    "size": 104385,
+    "version": "6.17-r0"
+  },
+  "libbz2": {
+    "aports_commit": "33283848034c9885d984c8e8697c645c57324938",
+    "control": "Q1HUlo4L85K4wqbwZokoOrknoJTas=",
+    "license": "bzip2-1.0.6",
+    "origin": "bzip2",
+    "sha256": "ccd478f4d5346a25911d4ee977690e2695e0ca3acf3e6b1a8c1300b2f4311e2f",
+    "size": 34257,
+    "version": "1.0.8-r6"
+  },
+  "libcap2": {
+    "aports_commit": "91f6971a1590396adc8c65ddf45c324f9540a1a0",
+    "control": "Q1b7dIEn8Y8hPwvJNpI/en7CE3FJM=",
+    "license": "BSD-3-Clause OR GPL-2.0-only",
+    "origin": "libcap",
+    "sha256": "b92145d3ceaf2ba81106241e2939eafc7aacb9c32590e4b1be37171fd2f61112",
+    "size": 23993,
+    "version": "2.78-r0"
+  },
+  "libcrypto3": {
+    "aports_commit": "bf5c30350a8ee29ad0729a34057f8c8f6e213916",
+    "control": "Q19MVYEXpG9tFv82EBvj2Q03Sl3qs=",
+    "license": "Apache-2.0",
+    "origin": "openssl",
+    "sha256": "719af95f8e01494aa8dd0e06e3af6d0eaf96cb816d13c52c81628e2780c1adae",
+    "size": 2286951,
+    "version": "3.5.9-r1"
+  },
+  "libelf": {
+    "aports_commit": "259dc49ec841e9c3c74fdae2f047e07ceb7035e8",
+    "control": "Q1FBK3y/uQmg3ZlOxfRpMpD9o53II=",
+    "license": "GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )",
+    "origin": "elfutils",
+    "sha256": "a92cb7309a0096234fbdd4e19a499e56337d9bb1fe18eb9d5ef6a89a4b46dbc6",
+    "size": 44663,
+    "version": "0.194-r0"
+  },
+  "libexpat": {
+    "aports_commit": "e6cf53fbaa7a1a570c9e87289c437a98d76b0f98",
+    "control": "Q1fERBUWswCK0YElbY9yptYBn3en0=",
+    "license": "MIT",
+    "origin": "expat",
+    "sha256": "9fedb90b0b9c206b0263fe3faa53860d02f2089d2edf5511406e281344d6780d",
+    "size": 65809,
+    "version": "2.11.0-r0"
+  },
+  "libffi": {
+    "aports_commit": "f5f00afcccb7a65098d3d2f19ae954878aaa1cf3",
+    "control": "Q1pfFMa1my+7l6OG2rWWInU29qCIs=",
+    "license": "MIT",
+    "origin": "libffi",
+    "sha256": "54794c4d9b4b4407506352379b2192c2dd105497fa80c53838047bf6c7b49a49",
+    "size": 18806,
+    "version": "3.8.1-r0"
+  },
+  "libgcc": {
+    "aports_commit": "7fa6e7fd3465c5ff89cc33a56d20bf4d59105aaf",
+    "control": "Q1OaFN9E99Md/C/xx1zL6SP0ElxQ8=",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "origin": "gcc",
+    "sha256": "eaaafda78fde1c904e1741680ddea91649f051e29a343152c8a4327605704b0f",
+    "size": 66324,
+    "version": "15.2.0-r2"
+  },
+  "libmnl": {
+    "aports_commit": "fc95c59998285564fbcb0bfb2443898c62e10171",
+    "control": "Q1AiLchidHMWkcDzJj/uJjqe8yspI=",
+    "license": "LGPL-2.1-or-later",
+    "origin": "libmnl",
+    "sha256": "e4d193a3cb4a44defd722292edde361e941b891ed93fcea94bbcf13b0972c5bb",
+    "size": 9460,
+    "version": "1.0.5-r2"
+  },
+  "libncursesw": {
+    "aports_commit": "f7479f62dcb52ace52d99650c80de275010ec3ac",
+    "control": "Q18F4vR7t+N2CYscc3ulYi6Iq05Ww=",
+    "license": "X11",
+    "origin": "ncurses",
+    "sha256": "7fe332c8af8b97579e89df56466f83f4abda5040a18e1842c07d684320bbef4b",
+    "size": 161252,
+    "version": "6.5_p20251123-r0"
+  },
+  "libnl3": {
+    "aports_commit": "4084996615c2a6601e26eedde99e3ae66e7d6ab7",
+    "control": "Q1g6jJ78P7BJQKY80r4WMznojHi+g=",
+    "license": "LGPL-2.1-or-later",
+    "origin": "libnl3",
+    "sha256": "47bf42b751721d62447978b5486d1b675a56dbbe0e07b9bb66036eb3287323f7",
+    "size": 333311,
+    "version": "3.11.0-r0"
+  },
+  "libpanelw": {
+    "aports_commit": "f7479f62dcb52ace52d99650c80de275010ec3ac",
+    "control": "Q1rpopISpx11fPOKLayQGaQxQbCWU=",
+    "license": "X11",
+    "origin": "ncurses",
+    "sha256": "d2d6c6eaf1ef0894ae777adb36e063c9fe1f08eba8d318163073557d901cdcd3",
+    "size": 5897,
+    "version": "6.5_p20251123-r0"
+  },
+  "libssl3": {
+    "aports_commit": "bf5c30350a8ee29ad0729a34057f8c8f6e213916",
+    "control": "Q1bG8G8Kto4i3TfBP7W9s2a2T4yYg=",
+    "license": "Apache-2.0",
+    "origin": "openssl",
+    "sha256": "c6e06484ab80e8c575b4c3c0e0cea34b350d8cbd35406e59e186ee1a3e0ebedf",
+    "size": 373267,
+    "version": "3.5.9-r1"
+  },
+  "libstdc++": {
+    "aports_commit": "7fa6e7fd3465c5ff89cc33a56d20bf4d59105aaf",
+    "control": "Q1CiwhEijgPIBPIGazqvseyTWbYMM=",
+    "license": "GPL-2.0-or-later AND LGPL-2.1-or-later",
+    "origin": "gcc",
+    "sha256": "10d72e25f6fcc0f3d9fdd801c9bdaed81d6e836aa2b65b63f25d2d97f860a7d1",
+    "size": 908978,
+    "version": "15.2.0-r2"
+  },
+  "linux-firmware-rtw88": {
+    "aports_commit": "4ad3e878cae63b54044a30f64a9bebe2fa68cc45",
+    "control": "Q1YCvLaIGmRiCy+8D2UmCw1W7/Q0Q=",
+    "license": "custom",
+    "origin": "linux-firmware",
+    "sha256": "5e50a25eff376c87ce06e6f3f7ffd53acef34c605ee5168146f1240d04fcf7e2",
+    "size": 409033,
+    "version": "20251125-r1"
+  },
+  "linux-lts": {
+    "aports_commit": "eb378b0757f36fcd639876eacb9315ef2cb9c075",
+    "control": "Q1jDmoIM9T3JIiweGweAbt4dtqIdY=",
+    "license": "GPL-2.0-only",
+    "origin": "linux-lts",
+    "sha256": "9ba3209e2a6e1907144b31359488168374fea10954d1aca6e948c1b838feab64",
+    "size": 119628968,
+    "version": "6.18.65-r0"
+  },
+  "mpdecimal": {
+    "aports_commit": "c0519b85456e9b838e3142e1d233aab0b433b476",
+    "control": "Q1xZDmXwZxl1yoczSu5GnFCNII2Uo=",
+    "license": "BSD-2-Clause",
+    "origin": "mpdecimal",
+    "sha256": "65f85194314576a50e0d3755ed42726c0ce37c846d2f22f558ea81a5ceb8278f",
+    "size": 81037,
+    "version": "4.0.1-r0"
+  },
+  "musl": {
+    "aports_commit": "fd05fc094264bce4fb76efc6c7f61ba4abfcb609",
+    "control": "Q1Gpmv84P2QM7qzmrxAM68h3dvVVQ=",
+    "license": "MIT",
+    "origin": "musl",
+    "sha256": "d7043c549029c98d438e9bc94213b006e5c88540eb58d1f5b0f0d1d56dbf9c98",
+    "size": 416083,
+    "version": "1.2.5-r24"
+  },
+  "ncurses-terminfo-base": {
+    "aports_commit": "f7479f62dcb52ace52d99650c80de275010ec3ac",
+    "control": "Q1/1LF9hnAgumV2D3OofJsxLVR4ts=",
+    "license": "X11",
+    "origin": "ncurses",
+    "sha256": "6952a6b39abaf7bbc498cb085f0f59bf23619b53b3f7328b08fe50c0198a2bd4",
+    "size": 21839,
+    "version": "6.5_p20251123-r0"
+  },
+  "pcsc-lite-libs": {
+    "aports_commit": "9b439c50bcf8e04dae0b2b54c5b10599d807ece1",
+    "control": "Q1E7J7UUZi1AgmNCWQl9fjcu+6bvM=",
+    "license": "BSD-3-Clause AND BSD-2-Clause AND ISC",
+    "origin": "pcsc-lite",
+    "sha256": "8b436b649abc801ff52c943d5248e1e4085599193c3340a458ff32417325bab4",
+    "size": 24517,
+    "version": "2.4.0-r1"
+  },
+  "python3": {
+    "aports_commit": "2ed0b6528f61b45078aecaed0140299ec38c97ef",
+    "control": "Q1vW9Lv4VMDbQ1Q/o2UhbwTnfabGI=",
+    "license": "PSF-2.0",
+    "origin": "python3",
+    "sha256": "a4ea335bd189fca31e002e63cb2b9a11679b302934d4c326aa0433948fb65af9",
+    "size": 8080069,
+    "version": "3.12.16-r0"
+  },
+  "readline": {
+    "aports_commit": "1d76ecdcac4abea004f7946038405cdb8b214522",
+    "control": "Q1qbLSnOn6QnCXvEmbo2WmibqrxLM=",
+    "license": "GPL-3.0-or-later",
+    "origin": "readline",
+    "sha256": "70d288a6c3d8daf19b10fb220120d2ebd6f154011c96ca5bc84923b658cb21f7",
+    "size": 129698,
+    "version": "8.3.1-r0"
+  },
+  "sqlite-libs": {
+    "aports_commit": "b45fc81206707171f23602615ce5619166014323",
+    "control": "Q1CNy4gGDS+Av0ogobhii7p8nmZcY=",
+    "license": "blessing",
+    "origin": "sqlite",
+    "sha256": "badbc86e4586a716f98a1da9087a694a276a002e3c9f73d4a8efd14f3a9881e2",
+    "size": 852534,
+    "version": "3.53.4-r0"
+  },
+  "wireless-regdb": {
+    "aports_commit": "6b9789fe4fdd346e71c82bcea6a466fcfa4f1437",
+    "control": "Q1u1fucTbmfrwtBO69SfgQYFUGgt0=",
+    "license": "ISC",
+    "origin": "wireless-regdb",
+    "sha256": "a0a68637e39bebd0ac01f3b398e34bcf212b20a2a62752239649ffb3941c1157",
+    "size": 8539,
+    "version": "2025.07.10-r0"
+  },
+  "wpa_supplicant": {
+    "aports_commit": "46858fe29eb75d3c87f21ee14d455a38c121c42c",
+    "control": "Q1+iwpqmv7ea3XuDR9y+qy9gYKJHQ=",
+    "license": "BSD-3-Clause",
+    "origin": "wpa_supplicant",
+    "sha256": "aea1caa2a0bfd07314886ddfeb66d76daddce6af38b0baa17d1718d7596bb558",
+    "size": 1929140,
+    "version": "2.11-r3"
+  },
+  "xz-libs": {
+    "aports_commit": "7d9b04ca29cda85937d7d73c0639e9a0a94ec87c",
+    "control": "Q1uYr/GTHN9qzUaKP4ggWBHwyAhRE=",
+    "license": "GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later",
+    "origin": "xz",
+    "sha256": "55cec0880e1d06049147cd295a7c8a2909a668fc58a00c187741f3a16c25c55d",
+    "size": 119415,
+    "version": "5.8.4-r0"
+  },
+  "zlib": {
+    "aports_commit": "0436c6d655a04cbfd7987202a970f5aa7870a901",
+    "control": "Q1w+byPv5bYwvQ54Xq5EaEc9vy8Go=",
+    "license": "Zlib",
+    "origin": "zlib",
+    "sha256": "c9bc3c75104ffba5785277b38eb83bf90ea83539e3bb26c617864fb78dcb4462",
+    "size": 55052,
+    "version": "1.4-r0"
+  },
+  "zstd-libs": {
+    "aports_commit": "7977bff716a0f7cf852fc81277b36d6e6e8d47b3",
+    "control": "Q1Vo+ENzvbO+ZKVudt7wcG80GPQcg=",
+    "license": "BSD-3-Clause OR GPL-2.0-or-later",
+    "origin": "zstd",
+    "sha256": "621c9247644e398fd3d32bba10fbf68c18f05b7941f1d055c4d48311fbfa9673",
+    "size": 333445,
+    "version": "1.6.0-r1"
+  }
+}

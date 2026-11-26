@@ -1,0 +1,25 @@
+#!/bin/sh
+set -eu
+export PATH=/sbin:/bin:/usr/sbin:/usr/bin
+mount -t devtmpfs devtmpfs /dev
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t tmpfs -o mode=0755,nosuid,nodev tmpfs /run
+# Load only the signed package's selected modules, dependencies first.
+while IFS= read -r module; do
+    case "$module" in
+        */rtw88_usb.ko) insmod "$module" switch_usb_mode=N ;;
+        *) insmod "$module" ;;
+    esac
+done < /etc/station-modules
+# The kernel can expose PCI and virtio consoles asynchronously.
+tries=0
+until [ -c /dev/hvc1 ]; do
+    tries=$((tries + 1))
+    if [ "$tries" -gt 100 ]; then echo "station: missing guest control console" >&2; poweroff -f; fi
+    sleep 0.1
+done
+echo "station: guest control console ready" >&2
+export PYTHONDONTWRITEBYTECODE=1 HOME=/run TMPDIR=/run
+/usr/local/sbin/station-guest || echo "station: agent stopped" >&2
+poweroff -f

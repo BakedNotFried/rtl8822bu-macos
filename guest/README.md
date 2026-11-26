@@ -1,0 +1,13 @@
+# Linux guest image
+
+From the repository root, run `python3 guest/build.py OUTPUT_DIRECTORY` with a fresh output directory. The builder writes a raw arm64 `Image` and gzip-compressed Linux `initramfs.gz`. It uses the Mac's Python 3, curl and OpenSSL. The package cache lives in `guest/build/cache`. For offline rebuilds on another Mac, copy the exact cached APKs alongside the source, or point `STATION_APK_CACHE` to a directory containing those APKs. Alpine's release mirror may retire individual package versions after an update.
+
+The guest uses Alpine 3.23 arm64 userspace and its Linux LTS kernel. The builder authenticates all 32 APK files against the pinned full-file SHA-256, Alpine RSA signature and the signed package payload digest. The lockfile also records each package's Alpine index checksum, release, source recipe commit and license. The Alpine aarch64 signing key is pinned by SHA-256. [Official Alpine release keys](https://alpinelinux.org/keys/) · [Alpine 3.23 arm64 packages](https://dl-cdn.alpinelinux.org/alpine/v3.23/main/aarch64/)
+
+The initramfs includes the in-tree `rtw88_8822bu` USB driver and its module dependencies, the RTL8822B firmware, signed regulatory database, wpa_supplicant, iw, iproute2, BusyBox and Python. At boot, `/init` mounts the guest's device, process and runtime filesystems, loads the required modules, and starts the station agent on `/dev/hvc1`. The launcher reserves the first virtio console so that the second appears as `hvc1`. The kernel's early diagnostic console is the built-in PL011 UART, `console=ttyAMA0`. The driver keeps the USB bus speed negotiated by the host to avoid a guest-initiated speed switch during USB passthrough.
+
+## Third-party notices and redistribution
+
+The project builds third-party binaries from their original Alpine packages. The kernel, BusyBox, supplicant, Python and other components retain their own licenses. The image includes its package manifest and the Realtek firmware's binary redistribution notice. The firmware license applies to the unchanged binary supplied by Realtek. [Realtek firmware license](LICENCE.rtlwifi_firmware.txt) · [Upstream firmware provenance](https://kernel.googlesource.com/pub/scm/linux/kernel/git/firmware/linux-firmware/+/refs/tags/20251125/WHENCE)
+
+If distributing prebuilt images, preserve applicable notices and provide the corresponding sources and build materials required by the included licenses. The pinned Alpine source recipes identify the upstream source archives and patches for each version. Open the Alpine aports repository at the package's `aports_commit` and read its `main/<origin>/APKBUILD`. [Package manifest](packages.lock.json) · [Alpine packaging sources](https://gitlab.alpinelinux.org/alpine/aports)
